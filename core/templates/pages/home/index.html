@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home page
+{% endblock %}
+
+
+{% block content %}
+
+    <!-- home page banner section -->
+    {% include 'components/pages/home/sections/_banner.html' %}
+
+
+    <!-- home page categories section -->
+    {% include 'components/pages/home/sections/_categories.html' %}
+
+    <!-- home page clothing section -->
+    {% include 'components/pages/home/sections/_clothing.html' %}
+
+    {# home page foodies section  #}
+    {% include 'components/pages/home/sections/_foodies.html' %}
+
+    {# home page banner-2 section   #}
+    {% include 'components/pages/home/sections/_banner-2.html' %}
+
+    {#  home page _testimonial section  #}
+    {% include 'components/pages/home/sections/_testimonials.html' %}
+
+    {# home page bestselling section #}
+    {% include 'components/pages/home/sections/_bestselling.html' %}
+
+    {# home page register section #}
+    {% include 'components/pages/home/sections/_register.html' %}
+
+    {#  home page latest blog section  #}
+    {% include 'components/pages/home/sections/_latest-blog.html' %}
+
+    {# home page service section   #}
+    {% include 'components/pages/home/sections/_service.html' %}
+
+    {# home page insta section   #}
+    {% include 'components/pages/home/sections/_insta.html' %}
+
+{% endblock %}

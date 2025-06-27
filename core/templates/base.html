@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+    {% include 'components/base/_meta.html' %}
+</head>
+{% include 'components/base/_styles.html' %}
+</head>
+
+<body>
+
+    <!-- preloader -->
+    {% include 'components/base/_preloader.html' %}
+
+    <!-- header -->
+
+    <!-- main content -->
+    {% block content %}
+
+    {% endblock %}
+
+    <!-- footer -->
+    {% include 'components/base/_footer.html' %}
+
+    <!-- javascript -->
+    {% include 'components/base/_scripts.html' %}
+</body>
+
+</html>
