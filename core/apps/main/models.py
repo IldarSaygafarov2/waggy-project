@@ -13,6 +13,11 @@ class Banner(BaseModel):
     def __str__(self):
         return self.description
 
+    def get_image(self):
+        if not self.image:
+            return ""
+        return self.image.url
+
     class Meta:
         verbose_name = 'Банер'
         verbose_name_plural = 'Банеры'

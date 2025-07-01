@@ -7,9 +7,9 @@
         {% endblock %}
     </title>
     {% include 'components/base/_meta.html' %}
+    {% include 'components/base/_styles.html' %}
 </head>
-{% include 'components/base/_styles.html' %}
-</head>
+
 
 <body>
 
@@ -17,6 +17,7 @@
     {% include 'components/base/_preloader.html' %}
 
     <!-- header -->
+    {% include 'components/base/_header.html' %}
 
     <!-- main content -->
     {% block content %}

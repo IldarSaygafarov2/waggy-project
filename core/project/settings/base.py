@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     "core.apps.main.apps.MainConfig",
     "core.apps.categories.apps.CategoriesConfig",
     "core.apps.blog.apps.BlogConfig",
+    "core.apps.products.apps.ProductsConfig"
 ]
 
 MIDDLEWARE = [
